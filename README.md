@@ -79,6 +79,11 @@ Start Frontend
 cd client
 npm run dev
 
+Screenshots
+<img width="1347" height="674" alt="image" src="https://github.com/user-attachments/assets/eb3f8125-6598-4652-82b5-4f5547f2d519" />
+<img width="1352" height="603" alt="image" src="https://github.com/user-attachments/assets/2c6da434-0a13-4ebf-bc25-e5511a7865a5" />
+
+
 
 🌐 API Endpoints
 

@@ -29,7 +29,7 @@ const handleShorten = async () => {
     setCopied(false);
 
     const response = await axios.post(
-    `${API_URL}/shorten`,
+    `${API_URL}/api/url/shorten`,
    {
      originalUrl: url,
    }

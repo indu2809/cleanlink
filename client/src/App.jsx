@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
 
@@ -28,12 +29,11 @@ const handleShorten = async () => {
     setCopied(false);
 
     const response = await axios.post(
-      "http://localhost:5000/shorten",
-      {
-        originalUrl: url,
-      }
-    );
-
+    `${API_URL}/shorten`,
+   {
+     originalUrl: url,
+   }
+ );
     setShortUrl(response.data.shortUrl);
 
   } catch (error) {
